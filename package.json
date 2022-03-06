@@ -1,7 +1,7 @@
 {
-  "name": "ts-react-library-template",
+  "name": "@kindlenext/ui",
   "version": "0.0.0",
-  "description": "React Library Template with TypeScript",
+  "description": "The Kindlenext UI Library for ReactJS",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
@@ -13,18 +13,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ranajahanzaib/ts-react-library-template.git"
+    "url": "git+https://github.com/kindlenext/ui.git"
   },
-  "author": "Rana Jahanzaib (https://ranajahanzaib.com)",
+  "author": "Kindlenext Authors (https://kindlenext.com)",
   "bugs": {
-    "url": "https://github.com/ranajahanzaib/ts-react-library-template/issues"
+    "url": "https://github.com/kindlenext/ui/issues"
   },
-  "homepage": "https://github.com/ranajahanzaib/ts-react-library-template#readme",
+  "homepage": "https://github.com/kindlenext/ui#readme",
   "license": "MIT",
   "private": false,
   "keywords": [
     "react",
     "components",
+    "kui",
     "ui",
     "library",
     "TypeScript"
