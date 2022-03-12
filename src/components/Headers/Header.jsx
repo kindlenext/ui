@@ -14,8 +14,12 @@ const Header = (props) => {
   }
 
   return (
-    <Header>
-      <nav className="links fw-bold">{navItems}></nav>
+    <Header className="py-2 d-flex align-items-center">
+      <nav>
+        <div className="col-3 fs-4 fw-bold">{props.headerName}</div>
+        <div className="col-8 links fw-bold">{navItems}</div>
+        <div className="col-1"></div>
+      </nav>
     </Header>
   );
 };
