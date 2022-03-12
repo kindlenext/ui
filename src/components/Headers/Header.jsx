@@ -4,14 +4,18 @@ const Header = (props) => {
   const navItems = [];
 
   for (let i = 0; i < items.length; i++) {
-    navItems.push(<a href={items(i).url}>{items[i].title}</a>);
+    navItems.push(
+      <ul>
+        <li>
+          <a href={items(i).url}>{items[i].title}</a>
+        </li>
+      </ul>
+    );
   }
 
   return (
     <Header>
-      <nav>
-        <div className="links fw-bold">{navItems}</div>
-      </nav>
+      <nav className="links fw-bold">{navItems}></nav>
     </Header>
   );
 };
